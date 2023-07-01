@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="shortcut icon" href="/assets/think.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <div class="container">
+            <div>
+                <h1>
+                    Jogo da adivinhação
+                </h1>
+                <p>
+                    Adivinhe o número entre 0 e 10
+                </p>
+            </div>
+            <div class="controls">
+                <input type="number" id="inputNumber">
+                <button class="tryButton">Tentar</button>
+            </div>
+        </div>
+        
+        <div class="container2 hide">
+            <h1>Acertou em 3 tentativas!</h1>
+            <button class="tryAgain">Jogar novamente</button>
+        </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
